@@ -1,0 +1,29 @@
+/* BODY */
+body {
+    background-image: url("https://imode.si/wp-content/uploads/2018/07/imode-logo1-1.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-blend-mode: soft-light;
+    /* height: 100%; */
+}
+
+/* TABLES */
+table,th,td {
+    border : 1px solid black;
+    border-collapse: collapse;
+    align-content: center;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+th,td {
+    padding: 5px;
+}
+
+tr:nth-child(even) {background: white}
+
+th {background: #A7D2F7}
